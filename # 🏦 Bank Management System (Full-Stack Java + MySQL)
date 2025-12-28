@@ -1,0 +1,111 @@
+# 🏦 Bank Management System (Full-Stack Java + SQL)
+
+A **full-stack desktop banking application** built using **Core Java, Swing UI, and MySQL database connectivity**, following industry-level development practices.  
+This project simulates essential banking operations with a secure, structured, and scalable backend, aligning with a **Full-Stack Java Developer and Software Engineering mindset**.
+
+---
+## 🧠 Developer Mindset Followed
+Built with the thinking approach of:
+
+- **Separation of concerns** (UI ↔ Logic ↔ Database)
+- **Secure data handling**
+- **Efficient SQL operations**
+- **Clean and maintainable Java code**
+- **Placement and interview readiness**
+- **Real-world banking workflow simulation**
+- --
+## ⚙️ Tech Stack
+
+### **Frontend (UI Layer)**
+- Java Swing (JFrame, JPanel, Buttons, Forms)
+- AWT for layouts and styling
+- Interactive and responsive desktop UI
+
+### **Backend (Application Logic)**
+- Core Java
+- OOP principles: Encapsulation, Abstraction, Inheritance, Polymorphism
+- Collections Framework (ArrayList, HashMap, etc.)
+- JDBC (Java Database Connectivity)
+
+### **Database (Persistence Layer)**
+- MySQL
+- Structured relational schema
+- CRUD operations using optimized SQL queries
+- ACID-safe transaction flows for banking operations
+
+  ---
+  ## 🔐 Features Implemented
+
+### **Account & User Management**
+- Create new bank account
+- Login system
+- Auto-generated account number (Random class)
+- Personal details stored in SQL
+
+### **Banking Operations**
+- Deposit money
+- Withdraw money
+- Fast Cash option
+- Balance enquiry
+- Mini statement (last 5 transactions)
+- Transaction history stored in MySQL
+
+### **Security & Validation**
+- No plaintext sensitive data exposure
+- SQL injection-safe query handling (PreparedStatement recommended for future)
+- Input validation for amount, PIN, and fields
+
+---
+
+## 🗂️ Database Schema Design
+
+### **Main Tables**
+| Table Name | Purpose |
+|-----------|---------|
+| `login` | Stores account number and PIN |
+| `customers` | Stores user personal details |
+| `bank` | Stores all transactions (deposit/withdraw) |
+
+### **Example SQL Connection Used**
+```java
+Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/banksystem", "root", "password");
+Statement stmt = con.createStatement();
+
+Bank-Management-System/
+│── src/
+│   └── Bank/Management/System/
+│       ├── Login.java
+│       ├── Signup.java
+│       ├── Deposit.java
+│       ├── Withdraw.java
+│       ├── MiniStatement.java
+│       └── Conn.java (JDBC Handler)
+│── icons/ (Images & Assets)
+└── README.md
+
+---
+
+## ✍️ Author
+
+**Adarsh Dwivedi**  
+🎓 3rd Semester | **B.Tech Computer Science Engineering**  
+🏫 **Madhyanchal Professional University, Ratibad, Bhopal, Madhya Pradesh**  
+📍 **Bhopal, Madhya Pradesh, India**
+
+> _“Dreams are not what you see in sleep, dreams are things that don’t let you sleep.”_  
+> _“Stay focused, work hard, trust the process — success will follow.”_  
+> _“Turning ambition into achievement, one line of code at a time.”_
+
+---
+## 💼 Profession
+
+I am a **Full-Stack Java Developer**, passionate about building scalable desktop and web applications using **Core Java, Swing, JDBC, and MySQL**.  
+I follow a structured software engineering approach and enjoy solving real-world problems through efficient backend logic and database-driven systems.
+
+## 🛠 Tools & Editor
+
+- **Code Editor:** IntelliJ IDEA  
+- **Primary IDE used for development, debugging, and full-stack JDBC–MySQL integration**
+🚀💻🎯
+
+  
